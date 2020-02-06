@@ -8,7 +8,18 @@ const reverseTests = [
 ];
 
 function reverse(str) {
-  return str.__.reverse().__;
+  return str.split("").reverse().join("");
 }
 
 testing(reverse, reverseTests);
+
+
+// function testing(fun,data){
+//   data.forEach(a =>
+//     {
+//       res = fun(...a.args);
+//       console.assert( res === a.expected, 
+//       `${a.name}: expected: ${a.expected} result: ${res}`)
+//     }
+//     )
+// }
