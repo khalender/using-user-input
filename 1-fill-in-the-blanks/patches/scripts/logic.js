@@ -14,9 +14,9 @@ function filterColors(color) {
     || color === 'yellow'
     || color === 'black'
     || color === 'grey') {
-    return __;
+    return color;
   } else {
-    return __;
+    return 'white';
   }
 }
 

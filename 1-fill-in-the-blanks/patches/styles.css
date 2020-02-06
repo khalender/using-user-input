@@ -1,6 +1,6 @@
-__ {
-  height: 10vh;
-  width: 10vw;
+#user-interface {
+  height: 100vh;
+  width: 100vw;
   position: fixed;
 }
 
@@ -24,7 +24,7 @@ __ {
   left: 05vw;
 }
 
-#__ {
+#yellow {
   top: 62vh;
   left: 02vw;
 }
