@@ -11,15 +11,13 @@ const generateMessageTests = [
 
 function generateMessage(text) {
   if (!text) {
-    return __;
+    return "";
   } else {
-    return __ + text;
+    return "selected: \n"+text;
   }
 }
 
 testing(generateMessage, generateMessageTests);
-
-// --- --- --- --- --- --- ---
 
 const keyIsEnterTests = [
   { name: '1', args: ['red'], expected: false },
@@ -32,9 +30,7 @@ const keyIsEnterTests = [
 ];
 
 function keyIsEnter(keyCode) {
-  return keyCode === __
-    ? true
-    : false;
+  return keyCode === 13 ? true: false;
 }
 
 testing(keyIsEnter, keyIsEnterTests);
